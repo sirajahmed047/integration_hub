@@ -1,41 +1,59 @@
-# Dependencies
-node_modules/
-.pnp
-.pnp.js
-
-# Next.js
-.next/
-out/
-build/
-dist/
-
-# Cache
-**/.next/cache/
-**/cache/
-**/*.pack
-
-# Platform specific
-**/swc-*
-**/*.node
-
-# Environment
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
-.vscode/
-.idea/
-*.swp
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
 *.swo
-
-# OS
+*.swp
+*.tgz
+*.xml
 .DS_Store
-Thumbs.db 
+**/*.DS_Store
+*/.DS_Store
+.idea
+.project
+.strong-pm
+*.history
+*.vscode
+.vscode
+**/.vscode
+**/data/sample
+.settings
+**/.env
+
+**/myvenv
+
+# credentials
+frame.jpg
+model/*
+venv
+vector
+**/.chroma
+*.db
+*.ipynb_checkpoints
+__pycache__
+*.parquet
+*.pkl
+*.bin
+
+output
+myworkings
+myvenv
+myvenv2
+
+node_modules
+build
+.next
+
+
+
+#### NextJS build...
+out
+
+
+####  ---------- Project Specific Start ----------
+data-local-reference
+web2/
+####  ---------- Project Specific End ----------
